@@ -157,7 +157,7 @@ async def on_message(message):
 
         if 'ctx' in locals() and ctx.guild.voice_client:
             if not ctx.guild.voice_client.is_playing():
-                ctx.guild.voice_client.play(discord.FFmpegPCMAudio('E:\\discord_bot\\iiyokoiyo.mp3'))
+                ctx.guild.voice_client.play(discord.FFmpegPCMAudio('iiyokoiyo.mp3'))
     await bot.process_commands(message)
 
 
